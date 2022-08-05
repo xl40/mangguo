@@ -1,0 +1,95 @@
+header .jiaguanzhu{
+    position: absolute;
+    right: 0;
+
+    width: 126px;
+    height: 44px;
+    border-radius: 22px;
+    border: 2px white solid;
+    font-size: 22px;
+    color: #fff;
+
+    text-align: center;
+    line-height: 44px;
+    margin-right: 30px;
+}
+
+header p{
+    color: #fff;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.follow-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.follow-content-top{
+    display: flex;
+    align-items: center;
+    padding: 24px 20px;
+    justify-content: space-between;
+    background: white;
+}
+
+.follow-content-top img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.follow-content-top-left{
+    display: flex;
+}
+
+.follow-content-top-left p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.follow-content-top-left p b{
+    font-size: 30px;
+}
+
+.follow-content-top-left span{
+    font-size: 20px;
+    color: #666;
+}
+
+.follow-content-top .jiaguanzhu{
+    color: #f06000;
+    border: 2px solid #f06000;
+    width: 112px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 24px;
+
+}
+
+.follow-content-middle p{
+    font-size: 26px;
+    margin: 20px;
+    color: #666;
+}
+
+.follow-content-bottom{
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 28px ;
+    align-items: center;
+}
+
+.follow-content-bottom span{
+    color: #666;
+}
+
+.follow-content-bottom .iconfont{
+    font-size: 28px;
+}

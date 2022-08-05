@@ -124,6 +124,11 @@ main {
     margin-top: 35px;
 }
 
+.icon-aixinjuanzeng{
+    font-size: 40px;
+    margin-right: 5px;
+}
+
 .main-top p:nth-child(1){
     position: relative;
 }
