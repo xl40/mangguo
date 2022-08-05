@@ -1,59 +1,59 @@
 .header-wrap{
-    width: 750px;
-    height: 116px;
+    width: 7.5rem;
+    height: 1.16rem;
     position: fixed;
     z-index: 9999;
 }
 
 header {
-    border: 1px solid #fffdef;
+    border: 0.01rem solid #fffdef;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 14px 22px 14px 22px;
+    padding: 0.14rem 0.22rem 0.14rem 0.22rem;
 }
 
 .icon-shoukuan,.icon-zhuanzhang{
     color: white;
-    font-size: 42px;
+    font-size: 0.42rem;
 }
 
 header input {
     background: #383838;
     color: #bababa;
-    width: 390px;
-    height: 60px;
+    width: 3.9rem;
+    height: 0.6rem;
     text-align: center;
-    line-height: 60px;
-    font-size: 23px;
+    line-height: 0.6rem;
+    font-size: 0.23rem;
     border: 0;
-    border-radius: 10px;
+    border-radius: 0.1rem;
 }
 
 header .icon-sousuo {
-    font-size: 20px;
+    font-size: 0.2rem;
     color: #bababa;
     position: absolute;
     left: 50%;
-    margin-left: -90px;
+    margin-left: -0.9rem;
 }
 
 /*****************   nav   ********************/
 
 nav{
-    margin-top: 116px;
-    border: 1px solid #d5d6da;
-    height: 71px;
+    margin-top: 1.16rem;
+    border: 0.01rem solid #d5d6da;
+    height: 0.71rem;
     background: white;
     display: flex;
     z-index: 990;
 }
 
 nav span{
-    width: 80px;
+    width: 0.8rem;
     text-align: center;
-    line-height: 71px;
-    font-size: 30px;
+    line-height: 0.71rem;
+    font-size: 0.3rem;
     font-weight: bold;
     color: #888888;
 }
@@ -73,7 +73,7 @@ nav li{
 }
 
 nav li a{
-    font-size:28px;
+    font-size:0.28rem;
     color: #666666;
 }
 
@@ -83,18 +83,18 @@ nav li a{
 
 .current::after {
     content: '';
-    width: 34px;
-    height: 4px;
+    width: 0.34rem;
+    height: 0.04rem;
     background: #f06000;
     position: absolute;
     left: 50%;
-    bottom: -16px;
-    margin-left: -17px;
+    bottom: -0.16rem;
+    margin-left: -0.17rem;
 }
 
 .banner{
-    width: 750px;
-    min-height: 416px;
+    width: 7.5rem;
+    min-height: 4.16rem;
 
     background: white;
 
@@ -103,30 +103,30 @@ nav li a{
 }
 
 .banner p{
-    height: 66px;
+    height: 0.66rem;
     text-align: center;
-    line-height: 66px;
+    line-height: 0.66rem;
     color: #666;
-    font-size: 25px;
+    font-size: 0.25rem;
 }
 
 main {
     background: white;
-    margin-top: 12px;
+    margin-top: 0.12rem;
 }
 
 .main-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 18px;
-    font-size: 28px;
-    margin-top: 35px;
+    padding-inline: 0.18rem;
+    font-size: 0.28rem;
+    margin-top: 0.35rem;
 }
 
 .icon-aixinjuanzeng{
-    font-size: 40px;
-    margin-right: 5px;
+    font-size: 0.4rem;
+    margin-right: 0.05rem;
 }
 
 .main-top p:nth-child(1){
@@ -135,13 +135,13 @@ main {
 
 .main-top p:nth-child(1)::before {
     content: '';
-    width: 6px;
-    height: 26px;
+    width: 0.06rem;
+    height: 0.26rem;
     background: #f06000;
     position: absolute;
-    left: -20px;
-    border-radius: 2px;
-    top: 5px;
+    left: -0.2rem;
+    border-radius: 0.02rem;
+    top: 0.05rem;
 }
 
 .main-top p:nth-child(2){
@@ -150,7 +150,7 @@ main {
 
 .main-content{
     display: flex;
-    margin-block: 37px;
+    margin-block: 0.37rem;
 }
 
 .main-content-item{
@@ -163,21 +163,21 @@ main {
 }
 
 .main-content-item img{
-    max-width: 366px;
-    min-height: 206px;
+    max-width: 3.66rem;
+    min-height: 2.06rem;
 }
 
 
 .main-content-item p{
-    margin: 18px 0 0 20px;
+    margin: 0.18rem 0 0 0.2rem;
     display: flex;
     flex-direction: column;
-    font-size: 28px;
+    font-size: 0.28rem;
     width: 100%;
 }
 
 .main-content-item p span{
-    font-size: 22px;
+    font-size: 0.22rem;
     color: #666;
 }
 

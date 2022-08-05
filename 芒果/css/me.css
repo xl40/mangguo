@@ -1,7 +1,7 @@
 .icon-saoyisao{
     color: #fff;
     position: absolute;
-    right: 32px;
+    right: 0.32rem;
 }
 
 header{
@@ -11,9 +11,9 @@ header{
 
 .header-wrap > .iconfont{
     border-radius: 50%;
-    width: 136px;
-    height: 136px;
-    border: white 6px double;
+    width: 1.36rem;
+    height: 1.36rem;
+    border: white 0.06rem double;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,12 +22,12 @@ header{
 
 .header-wrap .icon-taopiaopiaoicon{
     position: absolute;
-    font-size: 75px;
+    font-size: 0.75rem;
     z-index: 999;
     color: #7e7d7a;
     left: 50%;
-    margin-left: -75px;
-    top: 60px;
+    margin-left: -0.75rem;
+    top: 0.6rem;
 }
 
 .banner {
@@ -36,19 +36,19 @@ header{
 }
 
 .me-content{
-    font-size: 25px;
-    margin-top: 9px;
+    font-size: 0.25rem;
+    margin-top: 0.09rem;
     background: white;
     display: flex;
     flex-direction: column;
-    padding: 0 35px 0 30px;
+    padding: 0 0.35rem 0 0.3rem;
 }
 
 .me-content-item{
     justify-content: space-between;
     width: 100%;
     display: flex;
-    padding: 28px 0;
+    padding: 0.28rem 0;
 }
 
 .me-content-item-left{
@@ -62,8 +62,8 @@ header{
 
 .me-content-item::after{
     content: '';
-    height: 1px;
-    width: 720px;
+    height: 0.01rem;
+    width: 7.2rem;
     background: #e9e9ed;
     position: absolute;
     bottom: 0;
@@ -74,7 +74,7 @@ header{
 }
 
 .me-content-item-left .iconfont{
-    font-size: 40px;
+    font-size: 0.4rem;
     color: #c1c1c1;
-    margin-right: 30px;
+    margin-right: 0.3rem;
 }

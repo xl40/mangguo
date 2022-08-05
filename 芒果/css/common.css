@@ -23,18 +23,18 @@ body {
 }
 
 .mt{
-    margin-top: 116px;
+    margin-top: 1.16rem;
 }
 
 header{
     background: #252525;
-    height: 88px;
-    padding-block: 14px;
+    height: 0.88rem;
+    padding-block: 0.14rem;
 }
 
 footer{
-    height: 98px;
-    border: 1px solid #000;
+    height: 0.98rem;
+    border: 0.01rem solid #000;
     width: 100%;
     background: rgb(122, 122, 122, 0.9);
 }
@@ -48,7 +48,7 @@ footer{
     width: 7.5rem;
     background: white;
     border-top: 0.01rem solid #d3d3d3;
-    padding-top: 20px;
+    padding-top: 0.2rem;
 }
 
 nav a{
@@ -77,14 +77,14 @@ footer div p{
 
 footer a{
     position: absolute;
-    height: 90px;
-    top: -10px;
-    line-height: 140px;
-    font-size: 18px;
+    height: 0.9rem;
+    top: -0.1rem;
+    line-height: 1.4rem;
+    font-size: 0.18rem;
 }
 
 footer .iconfont{
-    font-size: 36px;
+    font-size: 0.36rem;
 }
 
 .current{
@@ -96,7 +96,7 @@ footer .iconfont{
 }
 
 section {
-    margin-bottom: 98px;
+    margin-bottom: 0.98rem;
 }
 
 footer a:active{

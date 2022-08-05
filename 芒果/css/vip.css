@@ -4,7 +4,7 @@ header {
 }
 
 header p {
-    height: 60px;
+    height: 0.6rem;
     display: flex;
 }
 
@@ -13,34 +13,34 @@ header span {
 }
 
 header span:nth-child(1) {
-    font-size: 50px;
-    margin-right: 5px;
+    font-size: 0.5rem;
+    margin-right: 0.05rem;
 }
 
 header span:nth-child(2) {
     font-weight: bold;
-    height: 60px;
-    line-height: 60px;
-    font-size: 28px;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.28rem;
 }
 
 header .icon-sousuo {
-    font-size: 20px;
+    font-size: 0.2rem;
     color: #bababa;
     position: absolute;
     left: 100%;
-    margin-left: -90px;
+    margin-left: -0.9rem;
 }
 
 .banner-vip {
-    height: 80px;
+    height: 0.8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 20px;
+    padding-inline: 0.2rem;
 
     background-image: linear-gradient(to right, #dbb058, #eec46d);
-    font-size: 20px;
+    font-size: 0.2rem;
     color: #fff;
 }
 
@@ -55,23 +55,23 @@ header .icon-sousuo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: 0.6rem;
+    height: 0.6rem;
     background: #fff0d2;
     border-radius: 50%;
-    margin-right: 22px;
+    margin-right: 0.22rem;
     color: #e2c17a;
-    font-size: 50px;
+    font-size: 0.5rem;
 }
 
 
 .banner-vip > span {
-    width: 128px;
-    height: 40px;
-    border-radius: 20px;
-    border: 1px solid white;
+    width: 1.28rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    border: 0.01rem solid white;
     text-align: center;
-    line-height: 40px;
+    line-height: 0.4rem;
 }
 
 .main-content{
@@ -79,7 +79,7 @@ header .icon-sousuo {
 }
 
 .main-content-item {
-    margin-bottom: 46px;
+    margin-bottom: 0.46rem;
 }
 
 
@@ -89,5 +89,5 @@ header .icon-sousuo {
 }
 
 .main-content-item > p > span{
-    margin-top: 15px;
+    margin-top: 0.15rem;
 }
