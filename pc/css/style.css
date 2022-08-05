@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+em, i {
+    font-style: normal;
+}
+
+strong, b {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+u, del, s {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.wnqc::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+
+header {
+    display: flex;
+}
+
+
+ul {
+    flex: 1;
+    align-items: center;
+    /*border: 1px solid #000;*/
+    display: flex;
+    margin-right: 100px;
+    margin-left: 50px
+}
+
+ul li {
+    /*border: 1px solid #000;*/
+    flex: 1;
+    width: 12.5%;
+    text-align: center;
+}
+
+.logo1 {
+    margin-left: 150px;
+    position: relative;
+}
+
+.logo2 {
+    margin-left: 30px;
+}
+
+.logo1::after {
+    content: '';
+    height: 40px;
+    width: 2px;
+    background: #666;
+    position: absolute;
+    right: -15px;
+    bottom: 25px;
+
+}
+
+.banner img {
+    width: 100%;
+}
+
+.main-box, .main2-box, .main3-box, .main4-box,
+.main-top, .main2-top, .main3-top, .main4-top {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.main-top, .main2-top, .main3-top, .main4-top {
+    text-align: center;
+    padding: 30px;
+}
+
+.main-top p, .main2-top p, .main3-top p, .main4-top p {
+    margin-top: 20px;
+}
+
+.main-box {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.main-box-item {
+    margin-bottom: 20px;
+    width: 350px;
+    height: 218px;
+    position: relative;
+}
+
+.main-box-item p {
+    position: absolute;
+    left: 50%;
+    margin-left: -114px;
+    top: 50%;
+    margin-top: -35px;
+
+    color: white;
+    width: 228px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.main-box-item:nth-child(1) p {
+    background: rgba(25, 157, 223, 0.9);
+}
+
+.main-box-item:nth-child(2) p {
+    background: rgba(26, 104, 206, 0.9);
+}
+
+.main-box-item:nth-child(3) p {
+    background: rgba(246, 196, 11, 0.9);
+}
+
+.main-box-item:nth-child(4) p {
+    background: rgba(155, 202, 54, 0.9);
+}
+
+.main-box-item:nth-child(5) p {
+    background: rgba(216, 12, 125, 0.9);
+}
+
+.main-box-item:nth-child(6) p {
+    background: rgba(243, 35, 33, 0.9);
+}
+
+
+.content2 {
+    background: #ebeff2;
+    padding-bottom: 50px;
+}
+
+.main2-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main2-box-item {
+    width: 280px;
+    height: 165px;
+    margin-bottom: 5px;
+}
+
+.main3 {
+    padding-bottom: 50px;
+}
+
+.main3-box, .main4-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main3-box-item {
+    width: 280px;
+    height: 210px;
+    margin-bottom: 5px;
+}
+
+
+.main4-box-item {
+    width: 550px;
+    height: 166px;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 600px;
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.top img {
+    margin: 50px auto;
+}
+
+.bottom {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    background: white;
+    width: 433px;
+    height: 383px;
+}
+
+.right {
+    background: white;
+    width: 524px;
+    height:442px;
+}
+
+
+.main4 {
+    padding-bottom: 50px;
+    background-image: linear-gradient(to right, #076a89, #aec4cf);
+}
+
+.main4-box-item{
+    display: flex;
+    background: white;
+}
+
+.main4-box-item p{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+.main4-box-item p span:nth-child(1){
+    font-size: 20px;
+    margin-bottom:  10px;
+}
+
+.main4-box-item p span:nth-child(2){
+    text-indent: 25px;
+    font-size: 14px;
+    margin-bottom:  10px;
+}
+
+.main4-box-item p span:nth-child(3){
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #666;
+}
+
+.footer-warp{
+    width: 100%;
+    background: #2f2f2f;
+}
