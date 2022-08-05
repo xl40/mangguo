@@ -1,0 +1,105 @@
+/* 重置 */
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a,u,del,s{text-decoration: none;}
+em,i{font-style: normal;}
+b,strong{font-weight: normal;}
+img{display: block;}
+a img{border: 0;}
+input,textarea{outline: 0;}
+.over{overflow: hidden;zoom: 1;}
+.wnqc::after{content: ''; display: block; width: 0; height: 0; visibility: hidden;clear: both;}
+/*html,body{width: 100%;height: 100%;}*/
+::-webkit-scrollbar{display: none;}
+
+a, a:hover, a:visited, a:link, a:active , a:focus {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*解决手机版点击背景问题*/
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #efefef;
+}
+
+.mt{
+    margin-top: 116px;
+}
+
+header{
+    background: #252525;
+    height: 88px;
+    padding-block: 14px;
+}
+
+footer{
+    height: 98px;
+    border: 1px solid #000;
+    width: 100%;
+    background: rgb(122, 122, 122, 0.9);
+}
+
+footer{
+    height: 0.78rem;
+    display: flex;
+    color: #666;
+    position: fixed;
+    bottom: 0;
+    width: 7.5rem;
+    background: white;
+    border-top: 0.01rem solid #d3d3d3;
+    padding-top: 20px;
+}
+
+nav a{
+    color: #000;
+}
+
+footer a{
+    color: #666666;
+}
+
+footer div{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+footer div p{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    position: absolute;
+    height: 90px;
+    top: -10px;
+    line-height: 140px;
+    font-size: 18px;
+}
+
+footer .iconfont{
+    font-size: 36px;
+}
+
+.current{
+    color: #f06000;
+}
+.current a{
+    font-weight: bold;
+    color: #f06000;
+}
+
+section {
+    margin-bottom: 98px;
+}
+
+footer a:active{
+    color: #fff;
+    background: white;
+}

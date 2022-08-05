@@ -1,0 +1,93 @@
+header {
+    justify-content: center;
+    position: relative;
+}
+
+header p {
+    height: 60px;
+    display: flex;
+}
+
+header span {
+    color: goldenrod;
+}
+
+header span:nth-child(1) {
+    font-size: 50px;
+    margin-right: 5px;
+}
+
+header span:nth-child(2) {
+    font-weight: bold;
+    height: 60px;
+    line-height: 60px;
+    font-size: 28px;
+}
+
+header .icon-sousuo {
+    font-size: 20px;
+    color: #bababa;
+    position: absolute;
+    left: 100%;
+    margin-left: -90px;
+}
+
+.banner-vip {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+
+    background-image: linear-gradient(to right, #dbb058, #eec46d);
+    font-size: 20px;
+    color: #fff;
+}
+
+.banner-vip-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.banner-vip-left > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: #fff0d2;
+    border-radius: 50%;
+    margin-right: 22px;
+    color: #e2c17a;
+    font-size: 50px;
+}
+
+
+.banner-vip > span {
+    width: 128px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 40px;
+}
+
+.main-content{
+    flex-wrap: wrap;
+}
+
+.main-content-item {
+    margin-bottom: 46px;
+}
+
+
+.main-top p{
+    display: flex;
+    /*width: 100%;*/
+}
+
+.main-content-item > p > span{
+    margin-top: 15px;
+}

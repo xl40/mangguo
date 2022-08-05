@@ -1,0 +1,190 @@
+.header-wrap{
+    width: 750px;
+    height: 116px;
+    position: fixed;
+    z-index: 9999;
+}
+
+header {
+    border: 1px solid #fffdef;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 22px 14px 22px;
+}
+
+.icon-shoukuan,.icon-zhuanzhang{
+    color: white;
+    font-size: 42px;
+}
+
+header input {
+    background: #383838;
+    color: #bababa;
+    width: 390px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 23px;
+    border: 0;
+    border-radius: 10px;
+}
+
+header .icon-sousuo {
+    font-size: 20px;
+    color: #bababa;
+    position: absolute;
+    left: 50%;
+    margin-left: -90px;
+}
+
+/*****************   nav   ********************/
+
+nav{
+    margin-top: 116px;
+    border: 1px solid #d5d6da;
+    height: 71px;
+    background: white;
+    display: flex;
+    z-index: 990;
+}
+
+nav span{
+    width: 80px;
+    text-align: center;
+    line-height: 71px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #888888;
+}
+
+nav ul{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav li{
+    text-align: center;
+    width: 20%;
+    position: relative;
+
+}
+
+nav li a{
+    font-size:28px;
+    color: #666666;
+}
+
+.current{
+    color: #f06000;
+}
+
+.current::after {
+    content: '';
+    width: 34px;
+    height: 4px;
+    background: #f06000;
+    position: absolute;
+    left: 50%;
+    bottom: -16px;
+    margin-left: -17px;
+}
+
+.banner{
+    width: 750px;
+    min-height: 416px;
+
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.banner p{
+    height: 66px;
+    text-align: center;
+    line-height: 66px;
+    color: #666;
+    font-size: 25px;
+}
+
+main {
+    background: white;
+    margin-top: 12px;
+}
+
+.main-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 18px;
+    font-size: 28px;
+    margin-top: 35px;
+}
+
+.main-top p:nth-child(1){
+    position: relative;
+}
+
+.main-top p:nth-child(1)::before {
+    content: '';
+    width: 6px;
+    height: 26px;
+    background: #f06000;
+    position: absolute;
+    left: -20px;
+    border-radius: 2px;
+    top: 5px;
+}
+
+.main-top p:nth-child(2){
+    color: #f06000;
+}
+
+.main-content{
+    display: flex;
+    margin-block: 37px;
+}
+
+.main-content-item{
+    flex: 1;
+    /*width: 45%;*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content-item img{
+    max-width: 366px;
+    min-height: 206px;
+}
+
+
+.main-content-item p{
+    margin: 18px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    width: 100%;
+}
+
+.main-content-item p span{
+    font-size: 22px;
+    color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
