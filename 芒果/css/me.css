@@ -1,0 +1,80 @@
+.icon-saoyisao{
+    color: #fff;
+    position: absolute;
+    right: 32px;
+}
+
+header{
+    border: 0;
+    background: #423c3c;
+}
+
+.header-wrap > .iconfont{
+    border-radius: 50%;
+    width: 136px;
+    height: 136px;
+    border: white 6px double;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #edebe4;
+}
+
+.header-wrap .icon-taopiaopiaoicon{
+    position: absolute;
+    font-size: 75px;
+    z-index: 999;
+    color: #7e7d7a;
+    left: 50%;
+    margin-left: -75px;
+    top: 60px;
+}
+
+.banner {
+    min-height: 0;
+
+}
+
+.me-content{
+    font-size: 25px;
+    margin-top: 9px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 35px 0 30px;
+}
+
+.me-content-item{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    padding: 28px 0;
+}
+
+.me-content-item-left{
+    display: flex;
+    align-items: center;
+}
+
+.me-content-item{
+    position: relative;
+}
+
+.me-content-item::after{
+    content: '';
+    height: 1px;
+    width: 720px;
+    background: #e9e9ed;
+    position: absolute;
+    bottom: 0;
+}
+
+.me-content-item:nth-last-child(1)::after{
+    display: none;
+}
+
+.me-content-item-left .iconfont{
+    font-size: 40px;
+    color: #c1c1c1;
+    margin-right: 30px;
+}
